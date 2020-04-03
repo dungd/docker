@@ -26,3 +26,26 @@
 ***docker-compose restart: khởi động lại.
 
 **docker-compose down** : sẽ xóa tất cả các container trước đi, khi đã chạy lênh down ta cần chạy lệnh **docker-compose up -d nginx mysql** để tải lại các container
+***
+
+### config file env laravel
+**DB_CONNECTION=mysql
+DB_HOST=laradock_mysql_1**
+***
+### config file env của docker
+**APP_CODE_PATH_HOST=//d/pj/code : trỏ đến thư mục chưa code
+APP_CODE_PATH_CONTAINER=/var/www
+DATA_PATH_HOST=//d/pj/data : trỏ đến thư mục chứa database
+COMPOSE_PATH_SEPARATOR=;
+Tìm từ khóa: Nginx và Mysql 
+MYSQL_VERSION=latest
+MYSQL_DATABASE=default
+MYSQL_USER=user
+MYSQL_PASSWORD=secret
+MYSQL_PORT=3306
+MYSQL_ROOT_PASSWORD=root
+** 
+
+**Truy cập theo đường dẫn ../nginx/sites/laravel.conf
+copy laravel.conf.example và đổi tên file thành laravel.conf
+**
