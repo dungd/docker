@@ -48,5 +48,5 @@ DB_HOST=laradock_mysql_1**
 
 ***
 Truy cập theo đường dẫn ../nginx/sites/laravel.conf
-copy laravel.conf.example và đổi tên file thành laravel.conf
+copy **laravel.conf.example** và đổi tên file thành **laravel.conf**
 
