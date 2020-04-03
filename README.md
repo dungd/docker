@@ -8,7 +8,10 @@
 + [clone project laravel for PC](git clone https://github.com/Laradock/laradock.git env).
 => tải về máy với tên thư mục là env
 - run your container: **docker-compose up -d nginx mysql**
-***
+
+a
+
+
 ## configuration .env
 + app_code_path_host: //d/pj/code : trỏ đến thư mục chứa code
 + app_code_path_container: /var/www
@@ -16,5 +19,10 @@
 ### muốn thêm 1 dự án mới
 - thêm 1 địa chỉ mới trong hosts
 - thêm đường dẫn mới vòa .env
+- thiết lập xong thì  chạy lênh **docker-compose up -d nginx mysql**
+#### những lệnh docker cơ bản 
+***docker-compose stop : dừng lại.
+***docker-compose start: bắt đầu.
+***docker-compose restart: khởi động lại.
 
-thiết lập xong thì  chạy lênh
+=> 
