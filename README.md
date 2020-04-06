@@ -51,9 +51,9 @@ Truy cập theo đường dẫn ../nginx/sites/laravel.conf
 copy **laravel.conf.example** và đổi tên file thành **laravel.conf**
 ***
 ***mysql
-**#CREATE DATABASE IF NOT EXISTS `dev_db_1` COLLATE 'utf8_general_ci' ;
+**CREATE DATABASE IF NOT EXISTS `dev_db_1` COLLATE 'utf8_general_ci' ;
 #GRANT ALL ON `dev_db_1`.* TO 'user'@'%' ;
 - hostname:laradock_mysql_1 (env)
 - user: user
 - password: secret
-- post: 3306**
+- post: 3306 **
