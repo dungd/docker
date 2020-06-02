@@ -18,6 +18,10 @@
 ### muốn thêm 1 dự án mới
 - thêm 1 địa chỉ mới trong hosts
 - thêm đường dẫn mới vòa .env
+- copy file trong nginx/sites/xxx.conf va 
+   server_name blog.local;
+    root /var/www/blog/public; theo project cua minh
+- k dc thi compose update sau do php artisan key:generate
 - thiết lập xong thì  chạy lênh **docker-compose up -d nginx mysql**
 ***
 #### những lệnh docker cơ bản 
