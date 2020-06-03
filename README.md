@@ -25,6 +25,7 @@
 - nếu thêm database đầu tiên thì chỉ cần thêm createdb.sql, còn chạy 2 pj thì cần thêm tay trong heidisql (hoặc công cụ khác)
 CREATE DATABASE IF NOT EXISTS `blog` COLLATE 'utf8_general_ci' ;
 GRANT ALL ON `blog`.* TO 'user'@'%' ;  => blog: tên database, user: user
+- env của dự án chỉ kết nối đến database còn khi khởi tạo docker thì cần tạo database luôn
 - thiết lập xong thì  chạy lênh **docker-compose up -d nginx mysql**
 ***
 #### những lệnh docker cơ bản 
