@@ -65,3 +65,7 @@ copy **laravel.conf.example** và đổi tên file thành **laravel.conf**
 - user: user
 - password: secret
 - post: 3306 **
+
+
+- server_name sekisho.local;
+    root /var/www/sekisho-jobfair/public; trong đó sekisho.local: url của pj và sekisho-jobfair: folder chứa pj laravel
